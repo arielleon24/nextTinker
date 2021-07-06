@@ -22,9 +22,9 @@ export default function Layout({ children }) {
         <nav className={styles.navbar}>
           <a href='/' className={styles.navlink}>{eng ? data.eng.nav : data.fr.nav}</a>
           <ul className={styles.navmenu}>
-            <li className={styles.navitem}>
+            {/* <li className={styles.navitem}>
               <a href='/login' className={styles.navlink}>Login</a>
-            </li>
+            </li> */}
             {/* <li className={styles.navitem}>
               <a className={styles.navlink}>Register</a>
             </li> */}
@@ -35,7 +35,6 @@ export default function Layout({ children }) {
         </nav>
       </header>
       <Index eng={eng} />
-      {/*footer*/}
     </>
   );
 }

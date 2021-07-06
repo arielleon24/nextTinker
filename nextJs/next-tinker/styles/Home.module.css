@@ -5,12 +5,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80%;
 }
 
 .form {
   padding: 50px;
-  width: 800px;
+  width: 900px;
 }
 
 .form div {
